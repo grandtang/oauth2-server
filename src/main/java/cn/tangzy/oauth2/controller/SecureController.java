@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/secure")
+@RequestMapping("/api/secure")
 public class SecureController {
 
     @RequestMapping(method = RequestMethod.GET)

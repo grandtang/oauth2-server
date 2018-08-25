@@ -1,6 +1,5 @@
 server:
   port: 9191
-  context-path: /api
 
 spring:
    datasource:
@@ -25,9 +24,6 @@ spring:
       maxOpenPreparedStatements: 20
 logging:
   config: classpath:spring-logback.xml
-security:
-  oauth2:
-    resource:
-      filter-order: 3
+
 
 
